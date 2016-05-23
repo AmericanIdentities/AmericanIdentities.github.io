@@ -1,0 +1,47 @@
+h1,h2,h3,h4,h5,h6 {
+    text-shadow: 3px 3px #000000;
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#fff;
+}
+
+body{
+	font-family: serif;
+  color:#fff;
+}
+
+p{
+  font-family: serif;
+	font-size: 3vh;
+  color:#fff;
+}
+
+#menu li a{
+  font-size: 5vh;
+  color:#fff;
+}
+
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 60px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+#menu li {
+	display:block;
+  width: 30vh;
+  height: 10vh;
+	margin: 5vh;
+	color: #000;
+	background:#000;
+	background: rgba(0,0,0, 0.5);
+	-webkit-border-radius: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .8);
+}
