@@ -1,0 +1,22 @@
+{
+  "name": "webbenglish",
+  "version": "1.0.0",
+  "description": "This page is an in depth look at what truly is an American",
+  "main": "index.js",
+  "scripts": {
+    "test": "testIndex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmericanIdentities/AmericanIdentities.github.io.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Robert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmericanIdentities/AmericanIdentities.github.io/issues"
+  },
+  "homepage": "https://github.com/AmericanIdentities/AmericanIdentities.github.io#readme"
+}
