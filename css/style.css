@@ -19,9 +19,24 @@ p{
 	background-image:url(../img/flashlight.png);
 	background-repeat:no-repeat;
   background-size: 53vh 55vh;
-	background-position:50% -30%;
+	background-position:50% 50%;
 }
 
 html, body{
 	height:100%;
+}
+
+#imageDiv img {
+    width: 30vh;
+    overflow: hidden;
+}
+
+.imageReg {
+    height: 20vh;
+    -webkit-transition: all .1s ease;
+    border-style: solid;
+}
+
+.imageReg:hover {
+    height:30vh;
 }
