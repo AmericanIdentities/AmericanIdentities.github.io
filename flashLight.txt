@@ -1,0 +1,34 @@
+
+Bookmark and Share
+Why? No reason, really. I had seen the idea demonstrated elsewhere and wanted to recreate the effect. Other than the novelty of it, I'm not sure where it might ever get used properly...
+
+Here's how it works:
+
+Everything is black: both the background color of the page and all text.
+The body has a single background image: a flashlight beam on a wall (500x500 pixels)
+
+The applicable CSS:
+
+html, body{
+	height:100%;
+}
+
+body{
+	background-color:#000000;
+	background-image:url(images/flashlight.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	cursor:crosshair;
+}
+The jQuery javascript framework is used to monitor mouse movement across the page:
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$("body").mousemove(function(e){
+			$("body").css('background-position',(e.pageX - 250)+'px '+(e.pageY - 250)+'px');
+		});
+	});
+</script>
+
+If you decide to use your own image, you'll of course need to change the CSS reference to it, but also take note of the image dimensions. The jQuery code must position the background image exactly halfway under the mouse cursor...change each '250' as needed to match half the size of your image.
+
