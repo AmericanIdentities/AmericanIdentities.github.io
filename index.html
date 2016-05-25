@@ -5,13 +5,20 @@
 
 	<link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" type="text/css" href="node_modules/jqPuzzle/jquery.jqpuzzle.css" />
+	<link rel="stylesheet" type="text/css" href="node_modules/turnjs4/lib/basic.css">
 	<script type="text/javascript" src="node_modules/snapfit/snapfit.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 		<script type="text/javascript" src="node_modules/fullpage.js/jquery.fullPage.js"></script>
-			<script type="text/javascript" src="node_modules/jqPuzzle/jquery.jqpuzzle.full.js"></script>
+			<script type="text/javascript" src="node_modules/turnjs4/lib/turn.js"></script>
 	<script type= "text/javascript" src="js/index.js"></script>
+	<script type="text/javascript">
+		$("#flipbook").turn({
+			width: 400,
+			height: 300,
+			autoCenter: true
+		});
+	</script>
 
 
 
@@ -24,7 +31,11 @@
 <body>
 
 <div id="fullpage">
-	<div class="section blackBackground" id="section0" >
+	<div class="section" id="section0">
+			
+	</div>
+
+	<div class="section blackBackground" id="section1" >
 	<h1>Who Really is an American?</h1>
 			<div class = "imageDiv">
 				<img class="imageReg" src="img/people/Picture1.png">
@@ -47,15 +58,21 @@
 		 </div>
 	</div>
 
-  <div class="section" id="section1">
+  <div class="section" id="section2">
+		<div id="flipbook">
+			<div class="page"> Turn.js </div>
+			<div class="page"> Page 1 </div>
+			<div class="page"> Page 2 </div>
+			<div class="page"> Page 3 </div>
+			<div class="page"> Page 4 </div>
+		</div>
+	</div>
+
+	<div class="section qqsd" id="section3">
 
 	</div>
 
-	<div class="section qqsd" id="section2">
-
-	</div>
-
-	<div class="section" id="section3">
+	<div class="section" id="section4">
 		<div id = "sliderBox">
 
       <div class="slide" id="slide1" data-anchor="slide1">
@@ -71,12 +88,6 @@
 
 	</div>
 </div>
-
-
-<div class="section" id="section4">
-
-</div>
-
 
 
 </body>

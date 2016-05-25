@@ -2,66 +2,66 @@
 1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
 1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'install',
-1 verbose cli   'snapfit' ]
+1 verbose cli   'turnjs' ]
 2 info using npm@2.14.12
 3 info using node@v4.2.4
 4 verbose install initial load of C:\Users\Pranav Seetharaman\Documents\GitHub\AmericanIdentities.github.io\package.json
 5 warn package.json webbenglish@1.0.0 No README data
 6 verbose installManyTop reading scoped package data from C:\Users\Pranav Seetharaman\Documents\GitHub\AmericanIdentities.github.io\node_modules\fullpage.js\package.json
-7 verbose installManyTop reading scoped package data from C:\Users\Pranav Seetharaman\Documents\GitHub\AmericanIdentities.github.io\node_modules\snapfit\package.json
-8 verbose installManyTop reading scoped package data from C:\Users\Pranav Seetharaman\Documents\GitHub\AmericanIdentities.github.io\node_modules\snapfit.zip\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\Pranav Seetharaman\Documents\GitHub\AmericanIdentities.github.io\node_modules\jqPuzzle\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\Pranav Seetharaman\Documents\GitHub\AmericanIdentities.github.io\node_modules\snapfit\package.json
 9 verbose readDependencies loading dependencies from C:\Users\Pranav Seetharaman\Documents\GitHub\AmericanIdentities.github.io\package.json
-10 silly cache add args [ 'snapfit', null ]
-11 verbose cache add spec snapfit
+10 silly cache add args [ 'turnjs', null ]
+11 verbose cache add spec turnjs
 12 silly cache add parsed spec Result {
-12 silly cache add   raw: 'snapfit',
+12 silly cache add   raw: 'turnjs',
 12 silly cache add   scope: null,
-12 silly cache add   name: 'snapfit',
+12 silly cache add   name: 'turnjs',
 12 silly cache add   rawSpec: '',
 12 silly cache add   spec: 'latest',
 12 silly cache add   type: 'tag' }
-13 silly addNamed snapfit@latest
-14 verbose addNamed "latest" is being treated as a dist-tag for snapfit
-15 info addNameTag [ 'snapfit', 'latest' ]
-16 silly mapToRegistry name snapfit
+13 silly addNamed turnjs@latest
+14 verbose addNamed "latest" is being treated as a dist-tag for turnjs
+15 info addNameTag [ 'turnjs', 'latest' ]
+16 silly mapToRegistry name turnjs
 17 silly mapToRegistry using default registry
 18 silly mapToRegistry registry https://registry.npmjs.org/
-19 silly mapToRegistry uri https://registry.npmjs.org/snapfit
-20 verbose addNameTag registry:https://registry.npmjs.org/snapfit not in flight; fetching
-21 verbose request uri https://registry.npmjs.org/snapfit
+19 silly mapToRegistry uri https://registry.npmjs.org/turnjs
+20 verbose addNameTag registry:https://registry.npmjs.org/turnjs not in flight; fetching
+21 verbose request uri https://registry.npmjs.org/turnjs
 22 verbose request no auth needed
-23 info attempt registry request try #1 at 7:51:29 PM
-24 verbose request id c04cfc38915354a0
-25 http request GET https://registry.npmjs.org/snapfit
-26 http 404 https://registry.npmjs.org/snapfit
+23 info attempt registry request try #1 at 10:04:54 AM
+24 verbose request id 63ee934b0ea695c6
+25 http request GET https://registry.npmjs.org/turnjs
+26 http 404 https://registry.npmjs.org/turnjs
 27 verbose headers { 'content-type': 'application/json',
 27 verbose headers   'cache-control': 'max-age=0',
 27 verbose headers   'content-length': '2',
 27 verbose headers   'accept-ranges': 'bytes',
-27 verbose headers   date: 'Wed, 25 May 2016 02:51:32 GMT',
+27 verbose headers   date: 'Wed, 25 May 2016 17:04:57 GMT',
 27 verbose headers   via: '1.1 varnish',
 27 verbose headers   age: '0',
 27 verbose headers   connection: 'keep-alive',
-27 verbose headers   'x-served-by': 'cache-lax1420-LAX',
+27 verbose headers   'x-served-by': 'cache-sjc3126-SJC',
 27 verbose headers   'x-cache': 'MISS',
 27 verbose headers   'x-cache-hits': '0',
-27 verbose headers   'x-timer': 'S1464144691.787857,VS0,VE340',
+27 verbose headers   'x-timer': 'S1464195897.437486,VS0,VE47',
 27 verbose headers   vary: 'Accept-Encoding' }
 28 silly get cb [ 404,
 28 silly get   { 'content-type': 'application/json',
 28 silly get     'cache-control': 'max-age=0',
 28 silly get     'content-length': '2',
 28 silly get     'accept-ranges': 'bytes',
-28 silly get     date: 'Wed, 25 May 2016 02:51:32 GMT',
+28 silly get     date: 'Wed, 25 May 2016 17:04:57 GMT',
 28 silly get     via: '1.1 varnish',
 28 silly get     age: '0',
 28 silly get     connection: 'keep-alive',
-28 silly get     'x-served-by': 'cache-lax1420-LAX',
+28 silly get     'x-served-by': 'cache-sjc3126-SJC',
 28 silly get     'x-cache': 'MISS',
 28 silly get     'x-cache-hits': '0',
-28 silly get     'x-timer': 'S1464144691.787857,VS0,VE340',
+28 silly get     'x-timer': 'S1464195897.437486,VS0,VE47',
 28 silly get     vary: 'Accept-Encoding' } ]
-29 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/snapfit
+29 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/turnjs
 29 verbose stack     at makeError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
 29 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
 29 verbose stack     at Request._callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
@@ -73,16 +73,16 @@
 29 verbose stack     at Request.emit (events.js:169:7)
 29 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1009:12)
 30 verbose statusCode 404
-31 verbose pkgid snapfit
+31 verbose pkgid turnjs
 32 verbose cwd C:\Users\Pranav Seetharaman\Documents\GitHub\AmericanIdentities.github.io
 33 error Windows_NT 10.0.10586
-34 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "snapfit"
+34 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "turnjs"
 35 error node v4.2.4
 36 error npm  v2.14.12
 37 error code E404
-38 error 404 Registry returned 404 for GET on https://registry.npmjs.org/snapfit
+38 error 404 Registry returned 404 for GET on https://registry.npmjs.org/turnjs
 38 error 404
-38 error 404 'snapfit' is not in the npm registry.
+38 error 404 'turnjs' is not in the npm registry.
 38 error 404 You should bug the author to publish it (or use the name yourself!)
 38 error 404 It was specified as a dependency of 'webbenglish'
 38 error 404

@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('#fullpage').fullpage({
-    anchors: ['americanIdentity', 'books', 'illuminate', 'characteristics',  'puzzleSolution'],
+    anchors: ['title', 'americanIdentity', 'books', 'illuminate', 'characteristics'],
     slidesNavigation: true,
   });
 });
