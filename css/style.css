@@ -65,6 +65,20 @@ html, body{
     text-align:center;
 }
 
+.whiteBackground{
+  background-color:#fff;
+}
+
 .blackBackground{
-  background-color: (0,91,95);
+  background-color: #000;
+}
+
+#magazine{
+  background-color:#fff;
+    width:50vh;
+    height:60vh;
+}
+#magazine .turn-page{
+    background-color:#fff;
+    background-size:100% 100%;
 }
