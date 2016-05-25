@@ -28,6 +28,15 @@ p{
 	background-position:50% 50%;
 }
 
+.page{
+  background-size: 100% 100%;
+  background-image:url(../img/page.jpg);
+}
+
+.endPage{
+  background-color: black;
+}
+
 html, body{
 	height:100%;
 }
@@ -74,11 +83,16 @@ html, body{
 }
 
 #magazine{
-  background-color:#fff;
-    width:50vh;
-    height:60vh;
+    width:42vh;
+    height:30vh;
 }
+
+.imgBook{
+  width:100%;
+  height:100%
+}
+
 #magazine .turn-page{
-    background-color:#fff;
+    background-color:#ccc;
     background-size:100% 100%;
 }
