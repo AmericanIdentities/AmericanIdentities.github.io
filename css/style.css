@@ -7,13 +7,17 @@ h1,h2,h3,h4,h5,h6 {
     color:#fff;
 }
 
+h1{
+  font-size: 10vh;
+}
+
 p{
   font-family: serif;
 	font-size: 3vh;
   color:#fff;
 }
 
-.a{
+.qqsd{
   font-family: serif;
 	background-color:#000000;
 	background-image:url(../img/flashlight.png);
@@ -26,17 +30,39 @@ html, body{
 	height:100%;
 }
 
-#imageDiv img {
-    width: 30vh;
+.imageDiv img {
+  position: relative;
     overflow: hidden;
+    border-radius: 250px;
 }
 
+
 .imageReg {
-    height: 20vh;
-    -webkit-transition: all .1s ease;
+    height: 25vh;
+    -webkit-transition: all .5s ease;
     border-style: solid;
+    display:inline-block;
+}
+
+.wide{
+  width: 50vh;
+}
+
+.wide:hover{
+  width:65vh;
 }
 
 .imageReg:hover {
-    height:30vh;
+    height:40vh;
+}
+
+.imageDiv {
+    height:90%;
+    width: 90%;
+    margin: 0px auto;
+    text-align:center;
+}
+
+.blackBackground{
+  background-color: #1a1a1a;
 }
