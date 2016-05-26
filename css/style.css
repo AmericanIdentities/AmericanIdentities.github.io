@@ -31,6 +31,15 @@ h4{
   font-family: 'Oleo Script';
   font-size: 7vh;
   color:#000;
+  margin: 2vh;
+}
+
+h6{
+  font-family: 'Oleo Script';
+  font-size: 7vh;
+  color:#000;
+  text-align: right;
+  margin: 2vh;
 }
 
 
