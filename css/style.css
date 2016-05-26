@@ -24,6 +24,15 @@ h2{
   text-align: center;
 }
 
+#section5 h2{
+  top:-20vh;
+  left:-90vh;
+  font-family: 'Oleo Script';
+  font-size: 26vh;
+  color:#000;
+  position:absolute;
+}
+
 h3{
   font-family: 'Oleo Script';
   font-size: 10vh;
@@ -53,6 +62,14 @@ p{
   text-align: center;
 }
 
+#section5 p{
+  left: 20vh;
+  vertical-align: middle;
+  font-family: serif;
+  font-size: 7vh;
+  color:#000;
+  text-align: center;
+}
 
 
 h5{
@@ -256,6 +273,20 @@ html, body{
     z-index: 200;
 }
 
+#mydiv4 {
+  background: white;
+      top:5vh;
+      left:18vh;
+      display: none;
+    width: 83%;
+    height: 90%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 200;
+    border-radius: 20px;
+    border: solid;
+    text-align: center;
+}
 
 #mydiv-container {
     margin-left: auto;
