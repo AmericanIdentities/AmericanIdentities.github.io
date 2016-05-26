@@ -38,6 +38,19 @@ $(window).ready(function() {
                      });
 });
 
+$(window).ready(function() {
+    $('#magazine2').turn({
+                        display: 'double',
+                        acceleration: true,
+                        gradients: !$.isTouch,
+                        elevation:50,
+                        when: {
+                            turned: function(e, page) {
+                            }
+                        }
+                     });
+});
+
 
 function show(target) {
     document.getElementById(target).style.display = 'block';

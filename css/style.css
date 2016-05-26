@@ -155,6 +155,15 @@ html, body{
       margin: 5vh;
 }
 
+#magazine2{
+    width:110vh;
+    height:85vh;
+    position:absolute;
+      z-index: 5;
+      top: 3vh;
+      left: 30vh;
+      margin: 5vh;
+}
 
 .imgBook{
   width:100%;
@@ -163,6 +172,12 @@ html, body{
 
 
 #magazine .turn-page{
+    background-size:100% 100%;
+}
+#magazine1 .turn-page{
+    background-size:100% 100%;
+}
+#magazine2 .turn-page{
     background-size:100% 100%;
 }
 
@@ -187,6 +202,16 @@ html, body{
 }
 
 #mydiv1 {
+  top:0;
+  display: none;
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 200;
+}
+
+#mydiv2 {
   top:0;
   display: none;
     width: 90%;
@@ -226,8 +251,9 @@ html, body{
     height:40vh;
     position:absolute;
     z-index: 3;
-    top: 17vh;
+    top: 12vh;
     left: 10vh;
+      margin: 5vh;
 }
 
 .bookImage2{
@@ -235,8 +261,19 @@ html, body{
     height:40vh;
     position:absolute;
     z-index: 3;
-    top: 17vh;
-    left: 50vh;
+    top: 12vh;
+    left: 66vh;
+      margin: 5vh;
+}
+
+.bookImage3{
+  width:32vh;
+  height:40vh;
+  position:absolute;
+  z-index: 3;
+  top: 12vh;
+  left: 124vh;
+    margin: 5vh;
 }
 
 .find{
