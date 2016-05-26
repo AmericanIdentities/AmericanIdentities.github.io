@@ -92,6 +92,18 @@ h5{
   background-size: 100% 100%;
 }
 
+.hardWorking{
+	background-image:url(../img/chars/char3.jpg);
+	background-repeat:no-repeat;
+  background-size: 100% 100%;
+}
+
+.innovative{
+	background-image:url(../img/chars/char4.jpg);
+	background-repeat:no-repeat;
+  background-size: 100% 100%;
+}
+
 #mydiv .page{
   background-size: 100% 100%;
   background-image:url(../img/page.jpg);
