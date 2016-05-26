@@ -76,8 +76,17 @@ h5{
   background-size: 100% 100%;
 }
 
+.patriotic{
+	background-image:url(../img/chars/char1.jpg);
+	background-repeat:no-repeat;
+  background-size: 100% 100%;
+}
 
-
+.caring{
+	background-image:url(../img/chars/char2.jpg);
+	background-repeat:no-repeat;
+  background-size: 100% 100%;
+}
 
 .page{
   background-size: 100% 100%;
