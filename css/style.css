@@ -38,6 +38,12 @@ h5{
   background-size: 100% 100%;
 }
 
+.flag2{
+	background-image:url(../img/flagMain2.jpg);
+	background-repeat:no-repeat;
+  background-size: 100% 100%;
+}
+
 
 
 .page{
