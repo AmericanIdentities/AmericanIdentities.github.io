@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('#fullpage').fullpage({
-    anchors: ['title', 'americanIdentity', 'books', 'illuminate', 'characteristics'],
+    anchors: ['title', 'americanIdentity', 'books', 'illuminate', 'characteristics', 'overview'],
     slidesNavigation: true,
   });
 });
