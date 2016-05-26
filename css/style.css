@@ -19,6 +19,10 @@ p{
   color:#fff;
 }
 
+h5{
+  font-size: 3em;
+}
+
 .qqsd{
   font-family: serif;
 	background-color:#000000;
@@ -76,6 +80,8 @@ html, body{
 
 .whiteBackground{
   background-color:#fff;
+    text-align:center;
+    position:relative;
 }
 
 .blackBackground{
@@ -83,16 +89,78 @@ html, body{
 }
 
 #magazine{
-    width:42vh;
-    height:30vh;
+    width:110vh;
+    height:85vh;
+    position:absolute;
+      z-index: 5;
+      top: 3vh;
+      left: 30vh;
+      margin: 5vh;
 }
 
 .imgBook{
   width:100%;
-  height:100%
+  height:100%;
+}
+
+.imgBookClick{
+  width:52vh;
+  height:40vh;
+  top: 3vh;
+  left: 5vh;
 }
 
 #magazine .turn-page{
-    background-color:#ccc;
     background-size:100% 100%;
+    border-radius: 3px;
+}
+.shelf{
+  position:absolute;
+  top: 70vh;
+  z-index: 2;
+   left:10vh;
+  width: 90%;
+  height: 10vh;
+  box-shadow:  0vh 15vh 150px -20px #000;
+}
+
+#mydiv {
+  top:0;
+  display: none;
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 200;
+}
+#mydiv-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+#mydiv-content {
+    width: 90%;
+}
+
+.closeButton{
+  position: absolute;
+  top: 0vh;
+  left: 150vh;
+  display:block;
+  width: 9em;
+  height: 4em;
+  margin: 1em;
+  color: #000;
+  background:#000;
+  background: rgba(0,0,0, 0.5);
+  -webkit-border-radius: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .8);
+}
+
+.bookImage{
+    width:32vh;
+    height:40vh;
+    position:absolute;
+    z-index: 3;
+    top: 17vh;
+    left: 10vh;
 }

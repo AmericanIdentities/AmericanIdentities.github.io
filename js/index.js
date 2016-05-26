@@ -24,9 +24,12 @@ $(window).ready(function() {
                         }
                      });
 });
-$(window).bind('keydown', function(e){
-    if (e.keyCode==37)
-        $('#magazine').turn('previous');
-    else if (e.keyCode==39)
-        $('#magazine').turn('next');
-});
+
+
+function show(target) {
+    document.getElementById(target).style.display = 'block';
+}
+
+function hide(target) {
+    document.getElementById(target).style.display = 'none';
+}
